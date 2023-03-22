@@ -1,0 +1,402 @@
+
+body{
+    margin: 0px;
+    font-family:"Montserrat" ;
+
+}
+
+section{
+   
+    
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    color: #0aabf9;
+    margin-bottom: 2rem;
+}
+p{
+    font-size: 20px;
+} 
+
+
+#title{
+background-image:url("https://www.rider.edu/sites/default/files/styles/hero_bg__homepage/public/2021-09/computer-keyboard-querty-stock.jpg?h=b47ed1c5&itok=cDlt-frg");
+background-size: cover;
+background-position: center;
+height: 80vh; /* Set the height of the section to the viewport height */
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.h1_title{
+    color: aliceblue;
+    padding: 3% 15%;
+    font-size: 4rem;
+    text-align: center;
+}
+.h2_title{
+    color: burlywood;
+    text-align: center;
+    padding: 3% 15%;
+}
+
+
+
+#about_me{
+    text-align: center;
+    padding: 8%;
+    margin: 0%;
+}
+.main_pic{
+    width: 90%;
+
+    
+}
+.p_about_me{
+    text-align: left;
+}
+
+
+
+
+
+#project{
+text-align: center;
+
+
+}
+.back-ground-project{
+    background: linear-gradient(to bottom, #555555, #082a8d);
+    
+}
+
+.h2_project{
+    color: aliceblue;
+
+}
+
+#testimonials-carousel2{
+    margin-top: 20px;
+}
+.cocktail-img{
+    width: 20%;
+    border-radius: 8%;
+    margin:4% 1%;
+}
+.ul_project{
+    color: white;
+    text-align: left;
+    margin: 30% 4%;
+    font-size: 20px;
+}
+.li_project{
+    margin-bottom: 5%;
+}
+
+
+.feature-box{
+    text-align: center;
+    padding: 3%;
+}
+.icon{
+    font-size: 5rem;
+    color: #ebecf8;
+}
+.icon:hover{
+
+    color: #0aabf9;
+}
+
+.h3_skills{
+    color: rgb(178, 183, 188);
+}
+
+
+ #experience{
+    
+    margin-top: 5rem;
+} 
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+    text-align: left;
+}
+.h4_experience_IDF{
+    color: #ecba7a;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.h4_subheading_IDF{
+    color: #deb885;
+    font-size: 20px;
+    text-align: center;
+}
+.h4_experience_MOD{
+    color: #5190d4;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.h4_subheading_MOD{
+    color: #5696d9;
+    font-size: 20px;
+    text-align: center;
+}
+/* .how-section1 h4{
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+} */
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 60%;
+}
+
+#contact{
+    margin-top: 5rem;
+    background-color: aliceblue;
+}
+.contact-icon{
+    font-size: 2rem;
+    padding: 1%;
+    color: #5b8fdc;
+}
+
+#contact h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+#experiences{
+
+}
+#myCarousel .carousel-item .mask {
+    position: absolute;
+    top: 0;
+	left:0;
+	height:100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+#myCarousel h4{
+	font-size:50px;
+	margin-bottom:15px;
+	color:#ecba7a;
+	line-height:100%;
+	letter-spacing:0.5px;
+	font-weight:600;
+}
+#myCarousel p{
+	font-size:18px;
+	margin-bottom:15px;
+	color:#d5d5d5;
+}
+
+#myCarousel .carousel-item h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
+#myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;text-align: left;} 
+#myCarousel .carousel-item ul{-webkit-animation-name:slideInRight; animation-name:slideInRight;text-align: left;} 
+
+
+#myCarousel .carousel-item .mask img{-webkit-animation-name:slideInRight; animation-name:slideInRight; display:block; height:auto; max-width:90%;}
+#myCarousel h4, #myCarousel p,#myCarousel ul, #myCarousel a, #myCarousel .carousel-item .mask img{-webkit-animation-duration: 1s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+#myCarousel .container {max-width: 1430px;  }
+#myCarousel .carousel-item{ min-height:550px; }
+#myCarousel{position:relative; z-index:1;  background-size:cover; }
+
+.carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #f47735; }
+
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.carousel-fade .carousel-item {
+	opacity: 0;
+	-webkit-transition-duration: .6s;
+	transition-duration: .6s;
+	-webkit-transition-property: opacity;
+	transition-property: opacity
+}
+.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+	opacity: 1
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-right.active {
+	opacity: 0
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0)
+}
+@supports (transform-style:preserve-3d) {
+	.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0)
+	}
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+ 
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+
+
+
+
+
+
+
+@media (max-width:560px){
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+
+
+    .h1_title{
+        font-size: 2.5rem;
+
+    }
+    .h2_title{
+        color: burlywood;
+
+    }
+
+
+
+}
