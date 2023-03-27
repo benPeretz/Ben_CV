@@ -59,6 +59,25 @@ height: 80vh; /* Set the height of the section to the viewport height */
     text-align: left;
 }
 
+.hiddenLeftAbout{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.hiddenRightAbout{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(100px);
+}
+.showAbout{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 
 
 
@@ -81,11 +100,20 @@ text-align: center;
 #testimonials-carousel2{
     margin-top: 20px;
 }
-.cocktail-img{
+.project-img{
     width: 20%;
     border-radius: 8%;
     margin:4% 1%;
+
+transition: width 0.5s;
+    
 }
+.project-img:hover{
+
+
+    width: 25%;
+}
+
 .ul_project{
     color: white;
     text-align: left;
@@ -95,6 +123,40 @@ text-align: center;
 .li_project{
     margin-bottom: 5%;
 }
+
+
+
+
+/* skills */
+.logo:nth-child(1){
+    transition-delay: 0ms;
+}
+.logo:nth-child(2){
+    transition-delay: 200ms;
+}
+.logo:nth-child(3){
+    transition-delay: 400ms;
+}
+.logo:nth-child(4){
+    transition-delay: 600ms;
+}
+.logo:nth-child(5){
+    transition-delay: 0ms;
+}
+.logo:nth-child(6){
+    transition-delay: 200ms;
+}
+.logo:nth-child(7){
+    transition-delay: 400ms;
+}
+.logo:nth-child(8){
+    transition-delay: 600ms;
+}
+
+
+
+
+
 
 
 .feature-box{
@@ -189,6 +251,10 @@ text-align: center;
 
 #experiences{
 
+}
+
+.ul_resonse{
+    font-size: 20px;
 }
 #myCarousel .carousel-item .mask {
     position: absolute;
@@ -376,7 +442,18 @@ text-align: center;
 
 
 
+@media(max-width:770px){
 
+#myCarousel .carousel-item .mask img{
+    width: 50%;
+}  
+#myCarousel h4{
+    font-size: 30px;
+}
+.ul_resonse{
+    font-size: 15px;
+}
+}
 
 
 
