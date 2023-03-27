@@ -31,7 +31,7 @@
 
 <body>
 
-  <section id="title">
+  <section id="title" style="margin-bottom: 5%;">
 
 
     <!-- Nav Bar -->
@@ -49,6 +49,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiences">experience</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
@@ -77,7 +80,7 @@
     <div class="row">
 
 
-      <div class="about col-lg-6">
+      <div class="about col-lg-6 hiddenLeftAbout">
         <h1>About Me</h1>
         <p class="p_about_me">I’m a 2nd year student at Holon Institute of Technology studying Computer Science (B.Sc).
           A great team player, Independent, Highly motivated and eager to learn and expend my knowledge.
@@ -86,7 +89,7 @@
 
       </div>
 
-      <div class="about col-lg-6">
+      <div class="about col-lg-6 hiddenRightAbout">
         <img class="main_pic" src="images/benpic-modified.png" alt="no pic">
 
       </div>
@@ -109,32 +112,32 @@
           <div class="carousel-item active">
 
             <h2 class="h2_project">
-              <em> Java android studio project -   cocktail bar   - working with API</em>
+              <em> Java android studio project - cocktail bar - working with API</em>
             </h2>
             <div class="row">
               <div class="col-lg-4 col-md-6 ">
 
-                <ul class="ul_project" >
+                <ul class="ul_project">
                   <li class="li_project">Users will enjoy a variety of cocktails and instructions that
                     the application offers
                   </li>
 
                   <li class="li_project">Worked with Firebase to authenticate and store user's information
                   </li>
-                  <li >For the information about cocktails I worked with API to
+                  <li>For the information about cocktails I worked with API to
                     fetch the data
                   </li>
-      
-      
+
+
                 </ul>
-              
+
               </div>
 
               <div class="col-lg-8 col-md-6 ">
-                <img class="cocktail-img" src="images/entrySCocktail.png" alt="dog-profile">
-                <img class="cocktail-img" src="images/homeSCocktail.png" alt="dog-profile">
-                <img class="cocktail-img" src="images/makeCocktailScocktail.png" alt="dog-profile">
-                <img  class="cocktail-img" src="images/createAccountSCocktail.png" alt="dog-profile">
+                <img class="project-img" src="images/entrySCocktail.png" alt="dog-profile">
+                <img class="project-img" src="images/homeSCocktail.png" alt="dog-profile">
+                <img class="project-img" src="images/makeCocktailScocktail.png" alt="dog-profile">
+                <img class="project-img" src="images/createAccountSCocktail.png" alt="dog-profile">
 
               </div>
 
@@ -144,10 +147,10 @@
             </div>
 
 
-              
-              
 
-            
+
+
+
           </div>
 
           <div class="carousel-item">
@@ -157,41 +160,41 @@
             <div class="row">
               <div class="col-lg-4 col-md-6 ">
 
-                <ul class="ul_project" >
+                <ul class="ul_project">
                   <li class="li_project">Information about dogs and cats breeds- using retrofit
                   </li>
 
                   <li class="li_project">Listing of pets available for adoption
                   </li>
-                  <li >User authentication using Firebase
+                  <li>User authentication using Firebase
                   </li>
-                  <li >User authentication using Firebase
+                  <li>User authentication using Firebase
                   </li>Saving data locally using Room
-      
-      
+
+
                 </ul>
-              
+
               </div>
 
               <div class="col-lg-8 col-md-6 ">
-                <img class="cocktail-img" src="images/entrySPal.png" alt="dog-profile">
-                <img class="cocktail-img" src="images/homeSPalDog.png" alt="dog-profile">
-                <img class="cocktail-img" src="images/homeSPalCat.png" alt="dog-profile">
-                <img  class="cocktail-img" src="images/serchSPalDog.png" alt="dog-profile">
+                <img class="project-img" src="images/entrySPal.png" alt="dog-profile">
+                <img class="project-img" src="images/homeSPalDog.png" alt="dog-profile">
+                <img class="project-img" src="images/homeSPalCat.png" alt="dog-profile">
+                <img class="project-img" src="images/serchSPalDog.png" alt="dog-profile">
 
               </div>
+            </div>
+
           </div>
+          <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" style="position: absolute; left: 4px;"></span>
+          </a>
 
+          <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon " style="position: absolute; right: 4px;"></span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" style="position: absolute; left: 4px;"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon " style="position: absolute; right: 4px;"></span>
-        </a>
       </div>
-    </div>
 
 
 
@@ -213,7 +216,7 @@
 
 
 
-<!-- 
+  <!-- 
   <section id="experience">
 
     <h1>Experience</h1>
@@ -273,18 +276,19 @@
                 <div class="col-md-7 col-12 order-md-1 order-2">
                   <h4>IDF <br>
                     2014-2017</h4>
-                    <ul  style="font-size: 20px;">
-                      <li>Combat soldier, commander (sergeant) in Givati unit.</li>
-                      <li>recruitment and training 12 soldiers while leading the team<br> to reach
-                        targets and accomplish  missions as good as possible
-                      </li>
-                      <li>Securing the state boarders from terrors threats.
-                      </li>
-                    </ul>
+                  <ul class="ul_resonse"  >
+                    <li>Combat soldier, commander (sergeant) in Givati unit.</li>
+                    <li>recruitment and training 12 soldiers while leading the team<br> to reach
+                      targets and accomplish missions as good as possible
+                    </li>
+                    <li>Securing the state boarders from terrors threats.
+                    </li>
+                  </ul>
 
 
-                   </div>
-                <div class="col-md-5 col-12 order-md-2 order-1"><img src="images/6144.webp" class="mx-auto rounded-circle" alt="slide"></div>
+                </div>
+                <div class="col-md-5 col-12 order-md-2 order-1"><img src="images/6144.webp"
+                    class="mx-auto rounded-circle" alt="slide"></div>
               </div>
             </div>
           </div>
@@ -296,7 +300,7 @@
                 <div class="col-md-7 col-12 order-md-1 order-2">
                   <h4 style="color:#5190d4">MINISTRY OF DEFENSE <br>
                     2018-2020</h4>
-                           <ul  style="font-size: 20px;">
+                  <ul class="ul_resonse" >
                     <li>Securing the state boarders from terrors threats</li>
                     <li>Responsibility on checking and verifying the people that coming into the
                       boarder, identifying them and stopping weapons transformation
@@ -305,12 +309,13 @@
                       giving response to threats in the field
                     </li>
                     <li> Taking important decisions while being under pressure</li>
-        
-        
+
+
                   </ul>
-                
-                   </div>
-                <div class="col-md-5 col-12 order-md-2 order-1"><img src="images/e9a0c60978baa779e8fecf19a257d063.jpeg" class="mx-auto rounded-circle" alt="slide"></div>
+
+                </div>
+                <div class="col-md-5 col-12 order-md-2 order-1"><img src="images/e9a0c60978baa779e8fecf19a257d063.jpeg"
+                    class="mx-auto rounded-circle" alt="slide"></div>
               </div>
             </div>
           </div>
@@ -331,7 +336,11 @@
           </div>
         </div> -->
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span
+          class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a
+        class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span
+          class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+    </div>
 
 
 
@@ -350,56 +359,57 @@
     <div class="back-ground-project">
 
       <div class="row"><!--structure the content of the section into a row format.-->
-        <div class="feature-box col-lg-3 col-md-6">
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo">
           <!--"feature-box" class that we created the "col-lg-4" class specifies the width of the box on larger screens.-->
           <i class="icon fa-brands fa-java"></i><!---->
           <h3 class="h3_skills">Java programming language</h3>
 
         </div>
-        <div class="feature-box col-lg-3 col-md-6">
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo">
           <i class="icon fa-brands fa-python"></i>
           <h3 class="h3_skills">Python programming language</h3>
 
         </div>
-        <div class="feature-box col-lg-3 col-md-6"><!--fa = font awsaom-->
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo"><!--fa = font awsaom-->
           <i class="icon fa-sharp fa-solid fa-c"></i>
           <h3 class="h3_skills">C programming language</h3>
 
         </div>
-        <div class="feature-box col-lg-3 col-md-6 ">
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo">
           <i class="icon fa-regular fa-file-code"></i>
           <h3 class="h3_skills">HTML</h3>
 
         </div>
+      </div>
 
+      <div class="row"><!--structure the content of the section into a row format.-->
 
-        <div class="row"><!--structure the content of the section into a row format.-->
-
-          <div class="feature-box col-lg-3 col-md-6 ">
-            <!--"feature-box" class that we created the "col-lg-4" class specifies the width of the box on larger screens.-->
-            <i class="icon fa-regular fa-file-code"></i>
-            <h3 class="h3_skills">Kotlin</h3>
-
-          </div>
-
-          <div class="feature-box col-lg-3 col-md-6 ">
-            <i class="icon fa-solid fa-code"></i>
-            <h3 class="h3_skills">CSS</h3>
-
-          </div>
-
-          <div class="feature-box col-lg-3 col-md-6 "><!--fa = font awsaom-->
-            <i class="icon fa-solid fa-code"></i>
-            <h3 class="h3_skills">C++ programming language</h3>
-          </div>
-
-          <div class="feature-box col-lg-3 col-md-6 "><!--fa = font awsaom-->
-            <i class="icon fa-solid fa-code"></i>
-            <h3 class="h3_skills">object oriented programming</h3>
-          </div>
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo">
+          <!--"feature-box" class that we created the "col-lg-4" class specifies the width of the box on larger screens.-->
+          <i class="icon fa-regular fa-file-code"></i>
+          <h3 class="h3_skills">Kotlin</h3>
 
         </div>
+
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo">
+          <i class="icon fa-solid fa-code"></i>
+          <h3 class="h3_skills">CSS</h3>
+
+        </div>
+
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo"><!--fa = font awsaom-->
+          <i class="icon fa-solid fa-code"></i>
+          <h3 class="h3_skills">C++ programming language</h3>
+        </div>
+
+        <div class="feature-box col-lg-3 col-md-6 hiddenLeftAbout logo"><!--fa = font awsaom-->
+          <i class="icon fa-solid fa-code"></i>
+          <h3 class="h3_skills">object oriented programming</h3>
+        </div>
+
+
       </div>
+    </div>
 
 
 
